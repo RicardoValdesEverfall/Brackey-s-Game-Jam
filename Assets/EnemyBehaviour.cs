@@ -8,6 +8,7 @@ public class EnemyBehaviour : MonoBehaviour
     void Start()
     {
         //hello world
+        Debug.Log("Hello World");
     }
 
     // Update is called once per frame
