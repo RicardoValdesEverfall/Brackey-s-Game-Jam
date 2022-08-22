@@ -43,12 +43,13 @@ public class PlayerCam : MonoBehaviour
 
     private void PlayerDetect()
     {
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out c_ObjHit, c_RayLength, c_LayerForRay))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out c_ObjHit, c_RayLength, c_LayerForRay)) //Checks if the player is looking at the TV
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * c_ObjHit.distance, Color.yellow);
+            //Add points to score
         }
 
-        else
+        else //Not looking at TV
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
         }
