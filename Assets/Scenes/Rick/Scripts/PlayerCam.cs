@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerCam : MonoBehaviour
 {
     [Header("SETTINGS")]
-    [SerializeField] public float p_SensX;
-    [SerializeField] public float p_SensY;
+    [SerializeField] public LayerMask c_LayerForRay;
+    [SerializeField] private float c_RayLength;
 
     [Header("DEBUG")]
+    [SerializeField] private RaycastHit c_ObjHit;
     [SerializeField] public Transform p_Orientation;
     [SerializeField] public float p_RotationX;
     [SerializeField] public float p_RotationY;
@@ -17,22 +18,39 @@ public class PlayerCam : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        CameraLockCursor(true);
     }
 
     // Update is called once per frame
     void Update()
     {
-        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * p_SensX;
-        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime * p_SensY;
+        
+    }
 
-        p_RotationY += mouseX;
-        p_RotationX -= mouseY;
+    private void CameraLockCursor(bool state)
+    {
+        if (state) 
+        { 
+            Cursor.lockState = CursorLockMode.Locked;
+        }
+        else 
+        {
+            Cursor.lockState = CursorLockMode.None;
+        }
 
-        p_RotationX = Mathf.Clamp(p_RotationX, -90f, 90f);
+        Cursor.visible = state;
+    }
 
-        transform.rotation = Quaternion.Euler(p_RotationX, p_RotationY, 0);
-        p_Orientation.rotation = Quaternion.Euler(0, p_RotationY, 0);
+    private void PlayerDetect()
+    {
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out c_ObjHit, c_RayLength, c_LayerForRay))
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * c_ObjHit.distance, Color.yellow);
+        }
+
+        else
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
+        }
     }
 }
