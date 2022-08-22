@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<Sound Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" ShortID="321467394">
 					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
 								<Value>-13</Value>
@@ -33,6 +35,9 @@
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
+					<PositioningInfo>
+						<Position Name="" ID="{99C26EBF-4572-479D-A38F-8531AAA9D58E}"/>
+					</PositioningInfo>
 					<ActiveSourceList>
 						<ActiveSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}" Platform="Linked"/>
 					</ActiveSourceList>

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="BrackeyJamAudioFiles" ID="{B776F8C8-7925-4C4A-BFA2-3C0211CC6669}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_a_Blizzard_Ambient" ID="{5F1C1955-6A2B-43D5-AC50-4DAA605C3C19}" WorkUnitID="{457FAC4C-73F7-4C5C-A7C8-6CC068353B6E}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_a_Blizzard_Ambient" ID="{BEBCF0F6-7AD1-4499-902A-C431B9DC4E17}" WorkUnitID="{457FAC4C-73F7-4C5C-A7C8-6CC068353B6E}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

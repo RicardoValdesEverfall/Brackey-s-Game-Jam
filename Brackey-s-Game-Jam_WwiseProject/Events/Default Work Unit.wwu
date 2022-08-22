@@ -3,9 +3,9 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{457FAC4C-73F7-4C5C-A7C8-6CC068353B6E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_a_Blizzard_Ambient" ID="{5F1C1955-6A2B-43D5-AC50-4DAA605C3C19}">
+				<Event Name="Play_a_Blizzard_Ambient" ID="{BEBCF0F6-7AD1-4499-902A-C431B9DC4E17}">
 					<ChildrenList>
-						<Action Name="" ID="{BD32D0E3-0007-4462-9FAD-7DD70A13CD52}" ShortID="783027624">
+						<Action Name="" ID="{25567DD7-7062-4E52-BCC7-6782C2F01D81}" ShortID="90045046">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
