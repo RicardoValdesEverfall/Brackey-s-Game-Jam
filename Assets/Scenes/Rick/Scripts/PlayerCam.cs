@@ -24,7 +24,7 @@ public class PlayerCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        PlayerDetect();
     }
 
     private void CameraLockCursor(bool state)
