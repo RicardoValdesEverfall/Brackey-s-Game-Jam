@@ -9,9 +9,22 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{F722EE04-1F93-5D3C-8C0A-01C887DAC2BD}">
+		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{C64523B0-1153-0F42-554A-EBBA849410AD}">
 			<ShortName>BrackeyJamAudioFiles</ShortName>
 			<Path>BrackeyJamAudioFiles.bnk</Path>
+			<Media>
+				<File Id="875019276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mixkit-blizzard-cold-winds-1153.wav</ShortName>
+					<CachePath>SFX/mixkit-blizzard-cold-winds-1153_4745C61B.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3566274169" Name="Play_a_Blizzard_Ambient" DurationType="OneShot" DurationMin="106.08812" DurationMax="106.08812">
+					<MediaRefs>
+						<MediaRef Id="875019276"/>
+					</MediaRefs>
+				</Event>
+			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{27583624-5B8E-2CDA-D317-E9F7A02C7AF9}">
 			<ShortName>Init</ShortName>
@@ -27,5 +40,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{01CA75ED-8F4F-FD2B-2ADD-FCBE4B15B076}</FileHash>
+	<FileHash>{5C5F13BD-E767-E634-8625-F9C6179743D7}</FileHash>
 </SoundBanksInfo>
