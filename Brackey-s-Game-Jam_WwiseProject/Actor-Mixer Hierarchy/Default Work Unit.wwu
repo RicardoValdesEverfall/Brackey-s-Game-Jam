@@ -6,10 +6,11 @@
 				<Sound Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" ShortID="321467394">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
+						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
 						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 						<Property Name="Volume" Type="Real64">
 							<ValueList>
-								<Value>-13</Value>
+								<Value>-18</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
@@ -36,6 +37,12 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<PositioningInfo>
+						<Panner Name="" ID="{23223FF2-9186-4F99-B8CA-3D89E49830A2}">
+							<PropertyList>
+								<Property Name="PanX" Type="Real64" Value="-0.337837837837833"/>
+								<Property Name="PanY" Type="Real64" Value="-1.67088565206086E-14"/>
+							</PropertyList>
+						</Panner>
 						<Position Name="" ID="{99C26EBF-4572-479D-A38F-8531AAA9D58E}"/>
 					</PositioningInfo>
 					<ActiveSourceList>
