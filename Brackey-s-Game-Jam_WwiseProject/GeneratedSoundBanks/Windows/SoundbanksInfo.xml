@@ -9,6 +9,10 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{F722EE04-1F93-5D3C-8C0A-01C887DAC2BD}">
+			<ShortName>BrackeyJamAudioFiles</ShortName>
+			<Path>BrackeyJamAudioFiles.bnk</Path>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{27583624-5B8E-2CDA-D317-E9F7A02C7AF9}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,5 +27,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{556A030B-7666-167A-6D26-B01F799E7B0A}</FileHash>
+	<FileHash>{01CA75ED-8F4F-FD2B-2ADD-FCBE4B15B076}</FileHash>
 </SoundBanksInfo>

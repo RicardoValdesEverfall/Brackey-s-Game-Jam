@@ -1,6 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" ShortID="321467394">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-13</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}">
+							<PropertyList>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+								<Property Name="TrimBegin" Type="Real64" Value="4.26627836319713"/>
+								<Property Name="TrimEnd" Type="Real64" Value="110.354400328032"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>mixkit-blizzard-cold-winds-1153.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="875019276"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
