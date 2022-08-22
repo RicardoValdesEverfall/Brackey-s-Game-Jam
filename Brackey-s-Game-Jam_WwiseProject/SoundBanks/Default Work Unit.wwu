@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C8395562-78C6-46D8-BBAC-F1471D17924C}" SchemaVersion="110">
 	<SoundBanks>
-		<WorkUnit Name="Default Work Unit" ID="{C8395562-78C6-46D8-BBAC-F1471D17924C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C8395562-78C6-46D8-BBAC-F1471D17924C}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="BrackeyJamAudioFiles" ID="{B776F8C8-7925-4C4A-BFA2-3C0211CC6669}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_a_Blizzard_Ambient" ID="{5F1C1955-6A2B-43D5-AC50-4DAA605C3C19}" WorkUnitID="{457FAC4C-73F7-4C5C-A7C8-6CC068353B6E}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundBanks>
 </WwiseDocument>
