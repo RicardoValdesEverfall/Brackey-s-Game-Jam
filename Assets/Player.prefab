@@ -403,8 +403,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2a6f0b7c7ca162640b7aa068a8e51cc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  p_SensX: 0
-  p_SensY: 0
+  c_LayerForRay:
+    serializedVersion: 2
+    m_Bits: 8
+  c_RayLength: 100
   p_Orientation: {fileID: 0}
   p_RotationX: 0
   p_RotationY: 0
