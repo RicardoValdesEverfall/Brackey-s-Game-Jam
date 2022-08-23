@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="Event Action List\{52659145-7DE4-415C-95B7-F444C1594856}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{5F1C1955-6A2B-43D5-AC50-4DAA605C3C19}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{621AC590-35D7-4B20-9566-9A269D9840B6}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BEBCF0F6-7AD1-4499-902A-C431B9DC4E17}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="EventView\FilterMode2" Type="int32" Value="2"/>
@@ -30,7 +31,7 @@
 				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="54wTLYsYtEKIUoUgDlrdaQEAO3kpAAAAwKSAvPx/AAB4yzEN/QEAAAAAAAD9AQAAwKSAvPx/AAAkkdS8/H8AACCzeCD9AQAAAAAAAP0BAAAIAAAAAAAAAMjlO3kpAAAAcP3ovPx/AACP/ui8/H8AAHD96Lz8fwAAwKSAvPx/AADApIC8/H8AAHjLMQ39AQAAAQAAANkWLjnsj7VKhHDo5nxUYdcBADt5KQAAAMCkgLz8fwAAeMsxDf0BAAAAAAAA/QEAAMCkgLz8fwAAJJHUvPx/AAAgs3gg/QEAAAAAAAD9AQAACAAAAAAAAADI5Tt5KQAAAHD96Lz8fwAAj/7ovPx/AABw/ei8/H8AAMCkgLz8fwAAwKSAvPx/AAB4yzEN/QEAAAEAAAA="/>
 				<Property Name="ListView\SearchText" Type="string" Value="$ &quot;\SoundBanks\Default Work Unit\BrackeyJamAudioFiles&quot;"/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
-				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
+				<Property Name="MeterView\MeterMode1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint1" Type="int32" Value="2"/>
 				<Property Name="MeterView\MeterMode1Viewpoint2" Type="int32" Value="3"/>
