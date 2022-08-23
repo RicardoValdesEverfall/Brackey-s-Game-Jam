@@ -52,7 +52,7 @@
 						<ActiveSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
-				<Sound Name="a_TV-Noise_Ambient" ID="{AEA915D6-E5CA-42F3-8828-7BA7EE68DFB7}" ShortID="640262683">
+				<Sound Name="a_TV_Ambient" ID="{FEC89345-E2F4-4824-A913-4C5DFA4CAD90}" ShortID="79638533">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="1"/>
 						<Property Name="Volume" Type="Real64">
@@ -73,7 +73,12 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="OldTimeyTv" ID="{AE63E8C6-FB04-453C-B04A-61FA860E1CDA}">
+						<AudioFileSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="6.55685768427742"/>
+								<Property Name="FadeOutDuration" Type="Real64" Value="16.5346845951343"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
 							<Language>SFX</Language>
 							<AudioFile>OldTimeyTv.wav</AudioFile>
 							<MediaIDList>
@@ -82,7 +87,7 @@
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="OldTimeyTv" ID="{AE63E8C6-FB04-453C-B04A-61FA860E1CDA}" Platform="Linked"/>
+						<ActiveSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
