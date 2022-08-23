@@ -1,6 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	2944718825	Play_a_TV_Ambient			\Default Work Unit\Play_a_TV_Ambient	
 	3566274169	Play_a_Blizzard_Ambient			\Default Work Unit\Play_a_Blizzard_Ambient	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	281624345	a_TV_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\OldTimeyTv_8C79BF18.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_TV_Ambient		50247292
 	875019276	a_Blizzard_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_Blizzard_Ambient		18714040
 
