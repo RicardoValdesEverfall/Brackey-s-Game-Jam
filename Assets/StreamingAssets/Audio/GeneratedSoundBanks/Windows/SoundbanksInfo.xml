@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="144">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{D3FC0966-6355-8F89-0F1A-D2DA9D52C7C7}">
+			<ShortName>BrackeyJamAudioFiles</ShortName>
+			<Path>BrackeyJamAudioFiles.bnk</Path>
+			<Media>
+				<File Id="875019276" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>mixkit-blizzard-cold-winds-1153.wav</ShortName>
+					<CachePath>SFX/mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="3566274169" Name="Play_a_Blizzard_Ambient" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="875019276"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{27583624-5B8E-2CDA-D317-E9F7A02C7AF9}">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus"/>
+			</Busses>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{9DEBE5AF-9B0D-F699-CDA6-5B8FD07D0A94}</FileHash>
+</SoundBanksInfo>
