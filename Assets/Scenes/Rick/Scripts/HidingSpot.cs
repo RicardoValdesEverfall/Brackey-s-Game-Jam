@@ -66,6 +66,9 @@ public class HidingSpot : MonoBehaviour
 
     private void CameraControl()
     {
+        Debug.Log(rotX);
+        Debug.Log(rotY);
+
         float inputX = Input.GetAxisRaw("Mouse X") * h_CamSens * Time.deltaTime;
         float inputY = Input.GetAxisRaw("Mouse Y") * h_CamSens * Time.deltaTime;
 
