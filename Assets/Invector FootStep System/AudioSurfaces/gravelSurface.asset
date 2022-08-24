@@ -24,7 +24,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 763ef6481f64ff044b076930e3e76ba2, type: 3}
   - {fileID: 8300000, guid: 5cbf4dba6e3b40040938560663d850cc, type: 3}
   - {fileID: 8300000, guid: 325a507d48fda384fa119f766f5c51a7, type: 3}
-  particleObject: {fileID: 135586, guid: 50016857087368141803f41af4837830, type: 3}
+  particleObject: {fileID: 7592332085084678023, guid: d1ef58ecf23659244b2a1c7271662169,
+    type: 3}
   useStepMark: 1
   stepMark: {fileID: 184202, guid: b8cf3efdf419ad74f8c0f66ab6418371, type: 3}
   stepLayer:

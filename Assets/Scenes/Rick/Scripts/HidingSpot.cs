@@ -30,6 +30,11 @@ public class HidingSpot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (h_playerRef != null)
+        {
+            h_IsHiding = h_playerRef.p_isHiding;
+        }
+
         if (h_IsHiding)
         {
             //Disable player controls

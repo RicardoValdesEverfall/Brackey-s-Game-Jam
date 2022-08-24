@@ -1238,14 +1238,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1252234730}
-  m_LocalRotation: {x: 0.07426253, y: 0.17106897, z: 0.17886443, w: 0.9660373}
+  m_LocalRotation: {x: 0.15936962, y: -0.3799647, z: 0.11003971, w: 0.9044996}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1368351323}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 4.72, y: 20.996, z: 21.854}
+  m_LocalEulerAnglesHint: {x: 21.834, y: -44.643, z: 4.817}
 --- !u!114 &1252234732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1258,7 +1258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Intensity: 17
+  m_Intensity: 75
   m_EnableSpotReflector: 1
   m_LuxAtDistance: 1
   m_InnerSpotPercent: 0
@@ -1380,13 +1380,13 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 17
+  m_Intensity: 75
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -1423,7 +1423,7 @@ Light:
   m_LightShadowCasterMode: 2
   m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
+  m_ColorTemperature: 9739
   m_UseColorTemperature: 1
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
@@ -1788,7 +1788,6 @@ GameObject:
   - component: {fileID: 1522297493}
   - component: {fileID: 1522297496}
   - component: {fileID: 1522297495}
-  - component: {fileID: 1522297494}
   m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
@@ -1811,19 +1810,6 @@ Transform:
   m_Father: {fileID: 1070561688}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: -16.131, z: 0}
---- !u!65 &1522297494
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1522297492}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!23 &1522297495
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2039,14 +2025,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659423950}
-  m_LocalRotation: {x: -0, y: -0.6901942, z: -0, w: 0.7236243}
-  m_LocalPosition: {x: -2.93, y: 0.98, z: 19.36}
+  m_LocalRotation: {x: -0, y: -0.63076466, z: -0, w: 0.7759742}
+  m_LocalPosition: {x: -3.08, y: 0.98, z: 19.39}
   m_LocalScale: {x: 8.018849, y: 3.1818, z: 0.05486499}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1070561688}
   m_RootOrder: 13
-  m_LocalEulerAnglesHint: {x: 0, y: -87.291, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -78.213, z: 0}
 --- !u!65 &1659423952
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2695,6 +2681,14 @@ PrefabInstance:
     - target: {fileID: 3637864858182755689, guid: c7ea8b77ab5673346908393b53b602d5, type: 3}
       propertyPath: m_AutoTraverseOffMeshLink
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5128619990539748348, guid: c7ea8b77ab5673346908393b53b602d5, type: 3}
+      propertyPath: defaultSurface
+      value: 
+      objectReference: {fileID: 11400000, guid: 96a3bb55090221046b5622713d941b4f, type: 2}
+    - target: {fileID: 5128619990539748348, guid: c7ea8b77ab5673346908393b53b602d5, type: 3}
+      propertyPath: debugTextureName
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5229468119966662133, guid: c7ea8b77ab5673346908393b53b602d5, type: 3}
       propertyPath: m_Name
