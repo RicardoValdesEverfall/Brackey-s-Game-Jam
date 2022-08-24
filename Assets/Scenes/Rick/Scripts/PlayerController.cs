@@ -10,7 +10,8 @@ public class PlayerController : MonoBehaviour
     [Header("DEBUG")]
     [SerializeField] public Transform p_Transform;
     [SerializeField] private Camera p_Cam;
-    [SerializeField] private bool p_isHiding;
+    [SerializeField] public bool p_isHiding;
+    [SerializeField] private HidingSpot p_CurrentHidingSpot;
 
     void Start()
     {
@@ -19,7 +20,10 @@ public class PlayerController : MonoBehaviour
 
     private void Update()
     {
-        PlayerInput();
+        if (p_isHiding == false)
+        {
+            PlayerInput();
+        } 
     }
 
     private void FixedUpdate()
@@ -33,9 +37,12 @@ public class PlayerController : MonoBehaviour
     }
 
 
-    public void PlayerHide()
+    public void PlayerHide(HidingSpot spot)
     {
-
+        if (Input.GetKeyDown(KeyCode.E) && p_isHiding == false)
+        {
+            p_isHiding = true;
+        }
     }
 
     public bool GetPlayerState()

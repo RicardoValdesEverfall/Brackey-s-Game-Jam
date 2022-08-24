@@ -13,6 +13,7 @@ namespace VHS
                     [Space, Header("Data")]
                     [SerializeField] private MovementInputData movementInputData = null;
                     [SerializeField] private HeadBobData headBobData = null;
+        [SerializeField] private PlayerController refToPlayerController;
 
                 #endregion
                     
@@ -135,13 +136,18 @@ namespace VHS
                     [Space]
                     [BoxGroup("DEBUG")][ShowIf("experimental")][SerializeField][ReadOnly] private float m_inputVectorMagnitude;
                     [BoxGroup("DEBUG")][ShowIf("experimental")][SerializeField][ReadOnly] private float m_smoothInputVectorMagnitude;
-                #endregion
-            #endregion
-        
+        #endregion
+        #endregion
+
         #endregion
 
         #region BuiltIn Methods     
-            protected virtual void Start()
+        private void Awake()
+        {
+            refToPlayerController = GetComponent<PlayerController>();
+        }
+
+        protected virtual void Start()
             {
                 GetComponents();
                 InitVariables();
@@ -149,10 +155,12 @@ namespace VHS
 
             protected virtual void Update()
             {
-                if(m_yawTransform != null)
+            if (refToPlayerController.p_isHiding == false)
+            {
+                if (m_yawTransform != null)
                     RotateTowardsCamera();
 
-                if(m_characterController)
+                if (m_characterController)
                 {
                     // Check if Grounded,Wall etc
                     CheckIfGrounded();
@@ -163,7 +171,7 @@ namespace VHS
                     SmoothSpeed();
                     SmoothDir();
 
-                    if(experimental)
+                    if (experimental)
                         SmoothInputMagnitude();
 
                     // Calculate Movement
@@ -183,6 +191,11 @@ namespace VHS
 
                     m_previouslyGrounded = m_isGrounded;
                 }
+            }
+            else
+            {
+
+            }
             }
 
             /*
