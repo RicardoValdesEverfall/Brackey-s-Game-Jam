@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_a_TV_Ambient" ID="{DF270840-1DED-4059-B59F-5286E1DF8425}">
+					<ChildrenList>
+						<Action Name="" ID="{72AE2658-DB50-4ECA-BDFB-61870903E6D8}" ShortID="400878077">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="a_TV_Ambient" ID="{FEC89345-E2F4-4824-A913-4C5DFA4CAD90}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
