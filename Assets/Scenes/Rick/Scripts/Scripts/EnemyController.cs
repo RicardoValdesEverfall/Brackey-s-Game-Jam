@@ -9,6 +9,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] public NavMeshAgent e_NavMeshAgent;
     [SerializeField][Range(10,100)] private float e_sightRange;
     [SerializeField][Range(10, 100)] private float e_moveSpeed;
+    [SerializeField] private Transform[] e_PatrolPoints;
 
     [Header("DEBUG")]
     [SerializeField] private Animator e_AnimatorController;
@@ -18,8 +19,7 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private e_States e_currentState;
     [SerializeField] private float e_Rotation;
     [SerializeField] private float e_Speed;
-
-    public Transform targetTest;
+    [SerializeField] private int e_PatrolPointIndex;
 
     private void Awake()
     {
@@ -39,14 +39,25 @@ public class EnemyController : MonoBehaviour
         e_Speed = e_NavMeshAgent.speed;
 
         e_AnimatorController.SetFloat("Speed", e_Speed);
-        e_AnimatorController.SetFloat("Speed", e_Rotation);
+        e_AnimatorController.SetFloat("Rotation", e_Rotation);
 
         EnemyPatrol();
     }
 
     private void EnemyPatrol()
     {
-        e_NavMeshAgent.SetDestination(targetTest.position);
+        e_NavMeshAgent.SetDestination(e_PatrolPoints[e_PatrolPointIndex].position);
+        float distanceRemaining = Vector3.Distance(transform.position, e_NavMeshAgent.destination);
+        
+
+        if (distanceRemaining <= e_NavMeshAgent.stoppingDistance)
+        {
+            if (e_PatrolPointIndex + 1 != e_PatrolPoints.Length)
+            {
+                e_PatrolPointIndex++;
+            }
+            else { e_PatrolPointIndex = 0; }
+        }  
     }
 
     private void EnemyInvestigate()
@@ -55,6 +66,11 @@ public class EnemyController : MonoBehaviour
     }
 
     private void EnemyChase()
+    {
+
+    }
+
+    private void EnemyDetection()
     {
 
     }
