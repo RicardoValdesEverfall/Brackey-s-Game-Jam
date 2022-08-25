@@ -13,10 +13,26 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID FS_MONSTER = 3721954379U;
         static const AkUniqueID PLAY_A_BLIZZARD_AMBIENT = 3566274169U;
         static const AkUniqueID PLAY_A_TV_AMBIENT = 2944718825U;
-        static const AkUniqueID PLAY_ALL_BREATHING = 3331243400U;
     } // namespace EVENTS
+
+    namespace SWITCHES
+    {
+        namespace MATERIAL
+        {
+            static const AkUniqueID GROUP = 3865314626U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID CARPET = 2412606308U;
+                static const AkUniqueID TILE = 2637588553U;
+                static const AkUniqueID WOOD = 2058049674U;
+            } // namespace SWITCH
+        } // namespace MATERIAL
+
+    } // namespace SWITCHES
 
     namespace BANKS
     {

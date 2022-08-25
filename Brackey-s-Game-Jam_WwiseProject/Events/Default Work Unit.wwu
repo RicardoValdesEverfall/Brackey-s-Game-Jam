@@ -25,61 +25,12 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_All_Breathing" ID="{A21B643F-339D-41E8-B82E-08EFC0B886F5}">
+				<Event Name="FS_Monster" ID="{B647338F-02F1-40CB-94DE-8510002BB1DF}">
 					<ChildrenList>
-						<Action Name="" ID="{0E8DA170-FAD9-4BB1-8B2A-B4D2A6494A08}" ShortID="215796759">
+						<Action Name="" ID="{2C0D0134-1807-440F-9E04-7347F065EF6D}" ShortID="399999427">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Fast-001" ID="{F5DAAEAF-6F6E-4100-8B8C-64FD25A9F062}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{E9A98153-D0B7-4AA6-8EB3-4F619CEA6C5A}" ShortID="659186818">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Fast-002" ID="{243353CD-173D-453A-9C67-0E5E20F61FA0}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{DB5150D8-2D18-45EE-A6F0-474DDF93F411}" ShortID="983312788">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Fast-003" ID="{C6DDB51B-787C-46FC-A101-7578D534CAD8}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{564CB7B8-7998-4B50-83EF-4B3F04BBC6F3}" ShortID="69972645">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Fast-004" ID="{93A699B0-56F9-4ACE-8253-B4AAEB9E4E05}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B0C4216F-F4E0-4F1B-834A-407D13383201}" ShortID="87806298">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Fast-005" ID="{2AD49447-CBA4-4086-A3FD-6C8AE82C460A}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{FC291C80-FFA4-4DC0-9386-F70940625D8D}" ShortID="630221487">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Slow-001" ID="{9F89C991-338F-441B-A345-1B64B4882EBB}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C281E3B1-5A8B-47A5-AA39-83CE4960119D}" ShortID="349843310">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Slow-002" ID="{01234770-0C55-46FE-A6A1-7724B6AB0F1A}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C2844AA7-359B-43BB-A891-85DCD604355E}" ShortID="493838443">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="A_Monster_Breathing_Slow-003" ID="{8A9C9700-776B-48D3-B6BC-601FB98E439B}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
+									<ObjectRef Name="MonsterFootsteps" ID="{4D0C4674-21C9-42D2-9FD2-CA63D1BBBE30}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
