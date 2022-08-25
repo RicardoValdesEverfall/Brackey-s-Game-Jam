@@ -21,6 +21,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private GameObject p_scoreObj;
 
     [Header("DEBUG")]
+    [SerializeField] private GameObject p_RefToEnemy;
+    [SerializeField] private EnemyController p_RefToEnemyController;
     [SerializeField] public Transform p_Transform;
     [SerializeField] private Camera p_Cam;
     [SerializeField] private HidingSpot p_CurrentHidingSpot;
@@ -32,6 +34,12 @@ public class PlayerController : MonoBehaviour
 
     private void Awake()
     {
+        if (p_RefToEnemy == null)
+        {
+            p_RefToEnemy = GameObject.FindGameObjectWithTag("Enemy");
+            p_RefToEnemyController = p_RefToEnemy.GetComponent<EnemyController>();
+        }
+
         p_Cam = GetComponentInChildren<Camera>();
         p_Transform = GetComponent<Transform>();
         p_UIAnimator = GetComponentInChildren<Animator>();
@@ -70,12 +78,12 @@ public class PlayerController : MonoBehaviour
 
     private void PlayerDetect()
     {
-        if (Physics.Raycast(p_Cam.transform.position, p_Cam.transform.TransformDirection(Vector3.forward), out c_ObjHit, p_sightRange, c_LayerForRay)) //Checks if the player is looking at the TV
+        if (Physics.Raycast(p_Cam.transform.position, p_Cam.transform.TransformDirection(Vector3.forward), out c_ObjHit, p_sightRange, c_LayerForRay)) //Checks if the player is looking at something they can interact with
         {
             Debug.DrawRay(p_Cam.transform.position, p_Cam.transform.TransformDirection(Vector3.forward) * c_ObjHit.distance, Color.yellow);
             if (c_ObjHit.transform.name == "Enemy")
             {
-
+                p_RefToEnemyController.e_isSeen = true;
             }
             else if(c_ObjHit.transform.name == "TV")
             {
@@ -85,7 +93,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        else //Not looking at TV
+        else //Not looking at anything
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
             if (p_ScoreToAddAnim.GetBool("GainingScore") == true)
@@ -98,6 +106,11 @@ public class PlayerController : MonoBehaviour
 
                 p_ScoreToAddAnim.SetBool("GainingScore", false);
                 p_ScoreTextAnim.SetTrigger("GainedScore");
+            }
+
+            if (p_RefToEnemyController.e_isSeen)
+            {
+                p_RefToEnemyController.e_isSeen = false;
             }
         }
     }
