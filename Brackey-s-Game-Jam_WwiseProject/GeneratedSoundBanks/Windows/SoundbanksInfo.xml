@@ -9,20 +9,69 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{1D5FF826-44E8-331C-5378-46E972922E70}">
+		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{3FAEFF21-2920-7E9E-4482-10E166AEEC6D}">
 			<ShortName>BrackeyJamAudioFiles</ShortName>
 			<Path>BrackeyJamAudioFiles.bnk</Path>
 			<Media>
+				<File Id="85027865" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Footstep-003.wav</ShortName>
+					<CachePath>SFX/A_Monster_Footstep-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="154434523" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Footstep-001.wav</ShortName>
+					<CachePath>SFX/A_Monster_Footstep-001_10C4C929.wem</CachePath>
+				</File>
 				<File Id="281624345" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>OldTimeyTv.wav</ShortName>
 					<CachePath>SFX/OldTimeyTv_9C4FBF42.wem</CachePath>
+				</File>
+				<File Id="628695570" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Footstep-002.wav</ShortName>
+					<CachePath>SFX/A_Monster_Footstep-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="652755168" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Footstep-005.wav</ShortName>
+					<CachePath>SFX/A_Monster_Footstep-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="810004757" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Footstep-004.wav</ShortName>
+					<CachePath>SFX/A_Monster_Footstep-004_10C4C929.wem</CachePath>
 				</File>
 				<File Id="875019276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mixkit-blizzard-cold-winds-1153.wav</ShortName>
 					<CachePath>SFX/mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem</CachePath>
 				</File>
+				<File Id="1047145094" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Footstep-006.wav</ShortName>
+					<CachePath>SFX/A_Monster_Footstep-006_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
+				<Event Id="3721954379" Name="FS_Monster" DurationType="OneShot" DurationMin="0.37445834" DurationMax="0.47110417">
+					<SwitchContainers>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2058049674" Default="true"/>
+							<MediaRefs>
+								<MediaRef Id="154434523"/>
+								<MediaRef Id="628695570"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2637588553"/>
+							<MediaRefs>
+								<MediaRef Id="85027865"/>
+								<MediaRef Id="810004757"/>
+							</MediaRefs>
+						</SwitchContainer>
+						<SwitchContainer>
+							<SwitchValue GroupType="Switch" GroupId="3865314626" Id="2412606308"/>
+							<MediaRefs>
+								<MediaRef Id="652755168"/>
+								<MediaRef Id="1047145094"/>
+							</MediaRefs>
+						</SwitchContainer>
+					</SwitchContainers>
+				</Event>
 				<Event Id="3566274169" Name="Play_a_Blizzard_Ambient" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="875019276"/>
@@ -34,6 +83,15 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="2637588553" Name="Tile"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{27583624-5B8E-2CDA-D317-E9F7A02C7AF9}">
 			<ShortName>Init</ShortName>
@@ -47,7 +105,16 @@
 			<Busses>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material">
+					<Switches>
+						<Switch Id="2058049674" Name="Wood"/>
+						<Switch Id="2412606308" Name="Carpet"/>
+						<Switch Id="2637588553" Name="Tile"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4FCED452-6899-C2DC-7108-A68FAC84815E}</FileHash>
+	<FileHash>{53E6D0F1-E219-8F2D-13CF-03112F2C0432}</FileHash>
 </SoundBanksInfo>

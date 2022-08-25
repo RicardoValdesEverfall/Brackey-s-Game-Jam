@@ -1,8 +1,23 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2944718825	Play_a_TV_Ambient			\Default Work Unit\Play_a_TV_Ambient	
 	3566274169	Play_a_Blizzard_Ambient			\Default Work Unit\Play_a_Blizzard_Ambient	
+	3721954379	FS_Monster			\Default Work Unit\FS_Monster	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	2058049674	Wood	Material			
+	2412606308	Carpet	Material			
+	2637588553	Tile	Material			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	281624345	a_TV_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\OldTimeyTv_9C4FBF42.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_TV_Ambient		50247292
-	875019276	a_Blizzard_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_Blizzard_Ambient		18714040
+	85027865	A_Monster_Footstep-003	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Footstep-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MonsterFootsteps\Tile\A_Monster_Footstep-003		74324
+	154434523	A_Monster_Footstep-001	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Footstep-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MonsterFootsteps\Wood\A_Monster_Footstep-001		74776
+	281624345	a_TV_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\OldTimeyTv_9C4FBF42.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_AmbientNoise_Ambient\a_TV_Ambient		50247292
+	628695570	A_Monster_Footstep-002	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Footstep-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MonsterFootsteps\Wood\A_Monster_Footstep-002		90548
+	652755168	A_Monster_Footstep-005	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Footstep-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MonsterFootsteps\Carpet\A_Monster_Footstep-005		71992
+	810004757	A_Monster_Footstep-004	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Footstep-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MonsterFootsteps\Tile\A_Monster_Footstep-004		84864
+	875019276	a_Blizzard_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_AmbientNoise_Ambient\a_Blizzard_Ambient		18714040
+	1047145094	A_Monster_Footstep-006	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Footstep-006_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\MonsterFootsteps\Carpet\A_Monster_Footstep-006		78216
 

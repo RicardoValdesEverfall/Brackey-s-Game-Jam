@@ -9,19 +9,72 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{D3FC0966-6355-8F89-0F1A-D2DA9D52C7C7}">
+		<SoundBank Id="262945753" Type="User" Language="SFX" Hash="{689AA2E6-56C3-F9FD-73EE-7C7ED1263A62}">
 			<ShortName>BrackeyJamAudioFiles</ShortName>
 			<Path>BrackeyJamAudioFiles.bnk</Path>
 			<Media>
+				<File Id="79037475" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Fast-005.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Fast-005_10C4C929.wem</CachePath>
+				</File>
+				<File Id="100257756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Fast-004.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Fast-004_10C4C929.wem</CachePath>
+				</File>
+				<File Id="281624345" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>OldTimeyTv.wav</ShortName>
+					<CachePath>SFX/OldTimeyTv_9C4FBF42.wem</CachePath>
+				</File>
+				<File Id="397958662" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Fast-001.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Fast-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="482362881" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Slow-002.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Slow-002_10C4C929.wem</CachePath>
+				</File>
+				<File Id="605084076" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Slow-001.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Slow-001_10C4C929.wem</CachePath>
+				</File>
+				<File Id="653449371" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Slow-003.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Slow-003_10C4C929.wem</CachePath>
+				</File>
+				<File Id="665026205" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Fast-002.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Fast-002_10C4C929.wem</CachePath>
+				</File>
 				<File Id="875019276" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>mixkit-blizzard-cold-winds-1153.wav</ShortName>
 					<CachePath>SFX/mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem</CachePath>
 				</File>
+				<File Id="908425192" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>A_Monster_Breathing_Fast-003.wav</ShortName>
+					<CachePath>SFX/A_Monster_Breathing_Fast-003_10C4C929.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
-				<Event Id="3566274169" Name="Play_a_Blizzard_Ambient" DurationType="Infinite">
+				<Event Id="3566274169" Name="Play_a_Blizzard_Ambient" MaxAttenuation="20" DurationType="Infinite">
 					<MediaRefs>
 						<MediaRef Id="875019276"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2944718825" Name="Play_a_TV_Ambient" MaxAttenuation="40" DurationType="OneShot" DurationMin="261.70413" DurationMax="261.70413">
+					<MediaRefs>
+						<MediaRef Id="281624345"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3331243400" Name="Play_All_Breathing" DurationType="OneShot" DurationMin="2.5273542" DurationMax="2.5273542">
+					<MediaRefs>
+						<MediaRef Id="79037475"/>
+						<MediaRef Id="100257756"/>
+						<MediaRef Id="397958662"/>
+						<MediaRef Id="482362881"/>
+						<MediaRef Id="605084076"/>
+						<MediaRef Id="653449371"/>
+						<MediaRef Id="665026205"/>
+						<MediaRef Id="908425192"/>
 					</MediaRefs>
 				</Event>
 			</Events>
@@ -40,5 +93,5 @@
 			</Busses>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9DEBE5AF-9B0D-F699-CDA6-5B8FD07D0A94}</FileHash>
+	<FileHash>{FC85ED38-7C2D-D6CD-AA39-366D3059C4B4}</FileHash>
 </SoundBanksInfo>

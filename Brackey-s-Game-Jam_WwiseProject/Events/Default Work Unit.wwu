@@ -3,9 +3,9 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{457FAC4C-73F7-4C5C-A7C8-6CC068353B6E}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_a_Blizzard_Ambient" ID="{BEBCF0F6-7AD1-4499-902A-C431B9DC4E17}">
+				<Event Name="Play_a_Blizzard_Ambient" ID="{BB4253D5-AF34-47A4-BDC7-579CF8994E24}">
 					<ChildrenList>
-						<Action Name="" ID="{25567DD7-7062-4E52-BCC7-6782C2F01D81}" ShortID="90045046">
+						<Action Name="" ID="{E6AE0B6D-BD94-4DA5-94A6-183DF1602E52}" ShortID="9650197">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
@@ -14,12 +14,23 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_a_TV_Ambient" ID="{DF270840-1DED-4059-B59F-5286E1DF8425}">
+				<Event Name="Play_a_TV_Ambient" ID="{4391780A-1DDF-4F8C-A435-DE0A14838CFD}">
 					<ChildrenList>
-						<Action Name="" ID="{72AE2658-DB50-4ECA-BDFB-61870903E6D8}" ShortID="400878077">
+						<Action Name="" ID="{E732C458-ADB7-4648-8AE5-102A21D9142B}" ShortID="8165597">
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="a_TV_Ambient" ID="{FEC89345-E2F4-4824-A913-4C5DFA4CAD90}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="FS_Monster" ID="{B647338F-02F1-40CB-94DE-8510002BB1DF}">
+					<ChildrenList>
+						<Action Name="" ID="{2C0D0134-1807-440F-9E04-7347F065EF6D}" ShortID="399999427">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MonsterFootsteps" ID="{4D0C4674-21C9-42D2-9FD2-CA63D1BBBE30}" WorkUnitID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
