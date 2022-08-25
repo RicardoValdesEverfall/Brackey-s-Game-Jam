@@ -3187,7 +3187,19 @@ MonoBehaviour:
   e_NavMeshAgent: {fileID: 3637864858182755689}
   e_sightRange: 30
   e_moveSpeed: 10
-  e_PatrolPoints: []
+  e_PatrolPoints:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   e_TimeToReact: 5
   e_suspicion: 0.45
   e_ZoneToInvestigate: {fileID: 0}
