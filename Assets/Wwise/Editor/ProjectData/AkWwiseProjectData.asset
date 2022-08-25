@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 625539c8c678d846bbacf1471d17924c
     GuidInternal: 
-    m_lastTime: -8585403066531275036
+    m_lastTime: -8585401754858767580
     List:
     - name: BrackeyJamAudioFiles
       guid: c8f876b725794a4cbfa23c0211cc6669
@@ -94,10 +94,10 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4cac7f45f7735c4ca7c86cc068353b6e
     GuidInternal: 
-    m_lastTime: -8585403066542479792
+    m_lastTime: -8585401754862761485
     List:
     - name: Play_a_Blizzard_Ambient
-      guid: f6f0bcbed17a9944902ac431b9dc4e17
+      guid: d55342bb34afa447bdc7579cf8994e24
       id: 3566274169
       PathAndIcons:
       - ElementName: Events
@@ -108,13 +108,13 @@ MonoBehaviour:
         guid: 4cac7f45f7735c4ca7c86cc068353b6e
       - ElementName: Play_a_Blizzard_Ambient
         ObjectType: 3
-        guid: f6f0bcbed17a9944902ac431b9dc4e17
+        guid: d55342bb34afa447bdc7579cf8994e24
       Path: Events\Default Work Unit\Play_a_Blizzard_Ambient
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_a_TV_Ambient
-      guid: 400827dfed1d5940b59f5286e1df8425
+      guid: 0a789143df1d8c4fa435de0a14838cfd
       id: 2944718825
       PathAndIcons:
       - ElementName: Events
@@ -125,8 +125,25 @@ MonoBehaviour:
         guid: 4cac7f45f7735c4ca7c86cc068353b6e
       - ElementName: Play_a_TV_Ambient
         ObjectType: 3
-        guid: 400827dfed1d5940b59f5286e1df8425
+        guid: 0a789143df1d8c4fa435de0a14838cfd
       Path: Events\Default Work Unit\Play_a_TV_Ambient
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Play_All_Breathing
+      guid: 3f641ba29d33e841b82e08efc0b886f5
+      id: 3331243400
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4cac7f45f7735c4ca7c86cc068353b6e
+      - ElementName: Play_All_Breathing
+        ObjectType: 3
+        guid: 3f641ba29d33e841b82e08efc0b886f5
+      Path: Events\Default Work Unit\Play_All_Breathing
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1

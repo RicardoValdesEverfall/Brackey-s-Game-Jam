@@ -2670,7 +2670,7 @@ PrefabInstance:
     - target: {fileID: 4240583471608836487, guid: 997bdc7930dbfd0418ba9e633ffa22a8, type: 3}
       propertyPath: refToPlayerController
       value: 
-      objectReference: {fileID: 1406695627543417315}
+      objectReference: {fileID: 0}
     - target: {fileID: 5286231013106795120, guid: 997bdc7930dbfd0418ba9e633ffa22a8, type: 3}
       propertyPath: m_Name
       value: Player
@@ -2740,25 +2740,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5286231013106795120, guid: 997bdc7930dbfd0418ba9e633ffa22a8, type: 3}
   m_PrefabInstance: {fileID: 1406695627543417312}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1406695627543417315
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406695627543417314}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 54c48097735cd37448dc00ac11210e60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  p_MovementSpeed: 0
-  p_UIAnimator: {fileID: 0}
-  p_Transform: {fileID: 0}
-  p_Cam: {fileID: 0}
-  p_isHiding: 0
-  p_canHide: 0
-  p_CurrentHidingSpot: {fileID: 0}
 --- !u!1001 &1700855040034725785
 PrefabInstance:
   m_ObjectHideFlags: 0
