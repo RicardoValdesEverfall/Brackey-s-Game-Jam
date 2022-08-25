@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_A_BLIZZARD_AMBIENT = 3566274169U;
         static const AkUniqueID PLAY_A_TV_AMBIENT = 2944718825U;
+        static const AkUniqueID PLAY_ALL_BREATHING = 3331243400U;
     } // namespace EVENTS
 
     namespace BANKS
