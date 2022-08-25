@@ -11,8 +11,6 @@ public class PlayerCam : MonoBehaviour
     [Header("DEBUG")]
     [SerializeField] private RaycastHit c_ObjHit;
     [SerializeField] public Transform p_Orientation;
-    [SerializeField] public float p_RotationX;
-    [SerializeField] public float p_RotationY;
 
 
     // Start is called before the first frame update
@@ -24,7 +22,7 @@ public class PlayerCam : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        PlayerDetect();
+
     }
 
     private void CameraLockCursor(bool state)
@@ -39,19 +37,5 @@ public class PlayerCam : MonoBehaviour
         }
 
         Cursor.visible = state;
-    }
-
-    private void PlayerDetect()
-    {
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out c_ObjHit, c_RayLength, c_LayerForRay)) //Checks if the player is looking at the TV
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * c_ObjHit.distance, Color.yellow);
-            //Add points to score
-        }
-
-        else //Not looking at TV
-        {
-            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-        }
     }
 }

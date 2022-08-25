@@ -66,8 +66,7 @@ public class HidingSpot : MonoBehaviour
 
     private void CameraControl()
     {
-        Debug.Log(rotX);
-        Debug.Log(rotY);
+        
 
         float inputX = Input.GetAxisRaw("Mouse X") * h_CamSens * Time.deltaTime;
         float inputY = Input.GetAxisRaw("Mouse Y") * h_CamSens * Time.deltaTime;
@@ -76,7 +75,7 @@ public class HidingSpot : MonoBehaviour
         rotX -= inputY;
 
         rotX = Mathf.Clamp(rotX, h_CameraRestraintsX, h_CameraRestraintsY);
-        h_Cam.gameObject.transform.rotation = Quaternion.Euler(rotX, rotY, 0);
+        h_Cam.gameObject.transform.localRotation = Quaternion.Euler(rotX, rotY, 0);
     }
 
     public void HidingHere(bool state)

@@ -73,7 +73,5 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 Assets/Wwise/ScriptableObjects/AkWwiseInitializationSettings.asset
 Brackey-s-Game-Jam_WwiseProject/ProfilingSession1.prof
-Assets/Footprint_Event.cs
-Assets/Footprint_Event.cs.meta
-Assets/FootStepPLAYER.cs.meta
-Assets/FootStepPLAYER.cs
+Assets/LevelDesign.prefab
+Assets/LevelDesign.prefab

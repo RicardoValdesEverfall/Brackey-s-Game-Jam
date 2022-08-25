@@ -1,21 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerController : MonoBehaviour
 {
+    [Header("PLAYER SETTINGS")]
+    [SerializeField] [Range(5, 100)] private int p_sightRange;
+    [SerializeField] private LayerMask c_LayerForRay;
+
     [Header("LOCOMOTION")]
     [SerializeField][Range(10, 100)] private float p_MovementSpeed;
 
     [Header("PLAYER UI")]
     [SerializeField] private Animator p_UIAnimator;
+    [SerializeField] private Animator p_ScoreToAddAnim;
+    [SerializeField] private Animator p_ScoreTextAnim;
+    [SerializeField] private TextMeshProUGUI p_scoreText;
+    [SerializeField] private TextMeshProUGUI p_scoreToAdd;
+    [SerializeField] private GameObject p_scoreObj;
 
     [Header("DEBUG")]
     [SerializeField] public Transform p_Transform;
     [SerializeField] private Camera p_Cam;
+    [SerializeField] private HidingSpot p_CurrentHidingSpot;
+    [SerializeField] public RaycastHit c_ObjHit;
     [SerializeField] public bool p_isHiding;
     [SerializeField] public bool p_canHide;
-    [SerializeField] private HidingSpot p_CurrentHidingSpot;
+    [SerializeField] private int p_Score;
+
 
     private void Awake()
     {
@@ -34,7 +47,9 @@ public class PlayerController : MonoBehaviour
         if (p_canHide == true)
         {
             PlayerInput();
-        } 
+        }
+
+        PlayerDetect();
     }
 
     private void FixedUpdate()
@@ -53,6 +68,40 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void PlayerDetect()
+    {
+        if (Physics.Raycast(p_Cam.transform.position, p_Cam.transform.TransformDirection(Vector3.forward), out c_ObjHit, p_sightRange, c_LayerForRay)) //Checks if the player is looking at the TV
+        {
+            Debug.DrawRay(p_Cam.transform.position, p_Cam.transform.TransformDirection(Vector3.forward) * c_ObjHit.distance, Color.yellow);
+            if (c_ObjHit.transform.name == "Enemy")
+            {
+
+            }
+            else if(c_ObjHit.transform.name == "TV")
+            {
+                p_Score++;
+                p_scoreToAdd.text = "+" + p_Score.ToString();
+                p_ScoreToAddAnim.SetBool("GainingScore", true);
+            }
+        }
+
+        else //Not looking at TV
+        {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
+            if (p_ScoreToAddAnim.GetBool("GainingScore") == true)
+            {
+                int sumScore;
+                int.TryParse(p_scoreText.text, out sumScore);
+                sumScore += p_Score;
+                p_scoreText.text = sumScore.ToString();
+                p_Score = 0;
+
+                p_ScoreToAddAnim.SetBool("GainingScore", false);
+                p_ScoreTextAnim.SetTrigger("GainedScore");
+            }
+        }
+    }
+
     public void PlayerHide(ref HidingSpot spot)
     {
         p_CurrentHidingSpot = spot;
@@ -62,5 +111,10 @@ public class PlayerController : MonoBehaviour
     public bool GetPlayerState()
     {
         return p_isHiding;
+    }
+
+    public void PlayerEnableScore(bool state)
+    {
+        p_scoreObj.SetActive(state);
     }
 }
