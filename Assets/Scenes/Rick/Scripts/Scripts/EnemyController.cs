@@ -64,21 +64,18 @@ public class EnemyController : MonoBehaviour
 
     private void EnemyPatrol()
     {
-        if (e_PatrolPoints.Length != 0)
+        e_NavMeshAgent.SetDestination(e_PatrolPoints[e_PatrolPointIndex].position);
+        float distanceRemaining = Vector3.Distance(transform.position, e_NavMeshAgent.destination);
+        
+
+        if (distanceRemaining <= e_NavMeshAgent.stoppingDistance)
         {
-            e_NavMeshAgent.SetDestination(e_PatrolPoints[e_PatrolPointIndex].position);
-            float distanceRemaining = Vector3.Distance(transform.position, e_NavMeshAgent.destination);
-
-
-            if (distanceRemaining <= e_NavMeshAgent.stoppingDistance)
+            if (e_PatrolPointIndex + 1 != e_PatrolPoints.Length)
             {
-                if (e_PatrolPointIndex + 1 != e_PatrolPoints.Length)
-                {
-                    e_PatrolPointIndex++;
-                }
-                else { e_PatrolPointIndex = 0; }
+                e_PatrolPointIndex++;
             }
-        }
+            else { e_PatrolPointIndex = 0; }
+        }  
     }
 
     private void EnemyInvestigate()
