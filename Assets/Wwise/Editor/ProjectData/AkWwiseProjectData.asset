@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 625539c8c678d846bbacf1471d17924c
     GuidInternal: 
-    m_lastTime: -8585401621011588570
+    m_lastTime: -8585401559585363434
     List:
     - name: BrackeyJamAudioFiles
       guid: c8f876b725794a4cbfa23c0211cc6669
@@ -94,10 +94,27 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 4cac7f45f7735c4ca7c86cc068353b6e
     GuidInternal: 
-    m_lastTime: -8585401621011628714
+    m_lastTime: -8585401559593435518
     List:
+    - name: FS_Monster
+      guid: 8f3347b6f102cb4094de8510002bb1df
+      id: 3721954379
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 4cac7f45f7735c4ca7c86cc068353b6e
+      - ElementName: FS_Monster
+        ObjectType: 3
+        guid: 8f3347b6f102cb4094de8510002bb1df
+      Path: Events\Default Work Unit\FS_Monster
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: Play_a_Blizzard_Ambient
-      guid: f6f0bcbed17a9944902ac431b9dc4e17
+      guid: d55342bb34afa447bdc7579cf8994e24
       id: 3566274169
       PathAndIcons:
       - ElementName: Events
@@ -108,13 +125,13 @@ MonoBehaviour:
         guid: 4cac7f45f7735c4ca7c86cc068353b6e
       - ElementName: Play_a_Blizzard_Ambient
         ObjectType: 3
-        guid: f6f0bcbed17a9944902ac431b9dc4e17
+        guid: d55342bb34afa447bdc7579cf8994e24
       Path: Events\Default Work Unit\Play_a_Blizzard_Ambient
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
     - name: Play_a_TV_Ambient
-      guid: 400827dfed1d5940b59f5286e1df8425
+      guid: 0a789143df1d8c4fa435de0a14838cfd
       id: 2944718825
       PathAndIcons:
       - ElementName: Events
@@ -125,7 +142,7 @@ MonoBehaviour:
         guid: 4cac7f45f7735c4ca7c86cc068353b6e
       - ElementName: Play_a_TV_Ambient
         ObjectType: 3
-        guid: 400827dfed1d5940b59f5286e1df8425
+        guid: 0a789143df1d8c4fa435de0a14838cfd
       Path: Events\Default Work Unit\Play_a_TV_Ambient
       maxAttenuation: 0
       maxDuration: -1
@@ -170,7 +187,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 04a6dc3575219349aea1a155ffb108ba
     GuidInternal: 
-    m_lastTime: -8585401622567889800
+    m_lastTime: -8585401559585353311
     List:
     - name: Material
       guid: 724ff8c2d5717d40b2792f25e7202f3d
