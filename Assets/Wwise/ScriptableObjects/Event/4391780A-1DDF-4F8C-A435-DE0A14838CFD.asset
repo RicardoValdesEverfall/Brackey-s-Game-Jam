@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffff61f59f16f97479b39aa5412e1ecc, type: 3}
+  m_Name: 4391780A-1DDF-4F8C-A435-DE0A14838CFD
+  m_EditorClassIdentifier: 
+  objectName: Play_a_TV_Ambient
+  id: 2944718825
+  guid: 4391780A-1DDF-4F8C-A435-DE0A14838CFD
