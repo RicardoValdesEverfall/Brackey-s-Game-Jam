@@ -3165,7 +3165,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5229468119966662133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.142, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3200,14 +3200,10 @@ MonoBehaviour:
   e_NavMeshAgent: {fileID: 3637864858182755689}
   e_sightRange: 30
   e_moveSpeed: 10
-  e_PatrolPoints: []
   e_AnimatorController: {fileID: 1581070791857700957}
   e_playerObjRef: {fileID: 0}
   e_playerTransformRef: {fileID: 0}
   e_currentState: 0
-  e_Rotation: 0
-  e_Speed: 0
-  e_PatrolPointIndex: 0
 --- !u!195 &3637864858182755689
 NavMeshAgent:
   m_ObjectHideFlags: 0
