@@ -1,8 +1,17 @@
 Event	ID	Name			Wwise Object Path	Notes
 	2944718825	Play_a_TV_Ambient			\Default Work Unit\Play_a_TV_Ambient	
+	3331243400	Play_All_Breathing			\Default Work Unit\Play_All_Breathing	
 	3566274169	Play_a_Blizzard_Ambient			\Default Work Unit\Play_a_Blizzard_Ambient	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	281624345	a_TV_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\OldTimeyTv_9C4FBF42.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_TV_Ambient		50247292
-	875019276	a_Blizzard_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_Blizzard_Ambient		18714040
+	79037475	A_Monster_Breathing_Fast-005	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Fast-005_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Fast-005		88828
+	100257756	A_Monster_Breathing_Fast-004	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Fast-004_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Fast-004		91264
+	281624345	a_TV_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\OldTimeyTv_9C4FBF42.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_AmbientNoise_Ambient\a_TV_Ambient		50247292
+	397958662	A_Monster_Breathing_Fast-001	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Fast-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Fast-001		89350
+	482362881	A_Monster_Breathing_Slow-002	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Slow-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Slow-002		242722
+	605084076	A_Monster_Breathing_Slow-001	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Slow-001_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Slow-001		198690
+	653449371	A_Monster_Breathing_Slow-003	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Slow-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Slow-003		182994
+	665026205	A_Monster_Breathing_Fast-002	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Fast-002_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Fast-002		105402
+	875019276	a_Blizzard_Ambient	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\mixkit-blizzard-cold-winds-1153_F5B1D3E9.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_AmbientNoise_Ambient\a_Blizzard_Ambient		18714040
+	908425192	A_Monster_Breathing_Fast-003	C:\Users\Owen Burgess\Documents\GitHub\Brackey-s-Game-Jam\Brackey-s-Game-Jam_WwiseProject\.cache\Windows\SFX\A_Monster_Breathing_Fast-003_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\a_CreatureBreathing_Active\A_Monster_Breathing_Fast-003		97890
 

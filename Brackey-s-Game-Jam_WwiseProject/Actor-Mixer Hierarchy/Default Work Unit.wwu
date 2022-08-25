@@ -3,93 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" ShortID="321467394">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-6</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="Blizzard_Attenuation" ID="{20B80E67-1E00-4D49-AA6B-2C15ABAA2BEE}" WorkUnitID="{1AD3FF4B-53A1-4605-85C3-2C294393925E}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}">
-							<PropertyList>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-								<Property Name="TrimBegin" Type="Real64" Value="4.26627836319713"/>
-								<Property Name="TrimEnd" Type="Real64" Value="110.354400328032"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>mixkit-blizzard-cold-winds-1153.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="875019276"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<PositioningInfo>
-						<Panner Name="" ID="{23223FF2-9186-4F99-B8CA-3D89E49830A2}">
-							<PropertyList>
-								<Property Name="PanX" Type="Real64" Value="-0.337837837837833"/>
-								<Property Name="PanY" Type="Real64" Value="-1.67088565206086E-14"/>
-							</PropertyList>
-						</Panner>
-						<Position Name="" ID="{99C26EBF-4572-479D-A38F-8531AAA9D58E}"/>
-					</PositioningInfo>
-					<ActiveSourceList>
-						<ActiveSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
-				<Sound Name="a_TV_Ambient" ID="{FEC89345-E2F4-4824-A913-4C5DFA4CAD90}" ShortID="79638533">
-					<PropertyList>
-						<Property Name="3DSpatialization" Type="int16" Value="1"/>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-7</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Attenuation">
-							<ObjectRef Name="TV-Attenuation" ID="{FCE48DB7-5F45-4BAD-BE53-4474C9FEE5CD}" WorkUnitID="{1AD3FF4B-53A1-4605-85C3-2C294393925E}"/>
-						</Reference>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="6.55685768427742"/>
-								<Property Name="FadeOutDuration" Type="Real64" Value="16.5346845951343"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>OldTimeyTv.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="281624345"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="a_CreatureFootsteps_Active" ID="{7FCC5F27-FFB1-43A9-8EAC-750BCD5D192F}" ShortID="997413212">
 					<ChildrenList>
 						<Sound Name="A_Monster_Footstep-001" ID="{2A78B00D-F3F7-498A-B454-451BC4C15C84}" ShortID="543077961">
@@ -225,6 +138,277 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="A_Monster_Footstep-006" ID="{40A20405-BD32-488F-AFA4-610C96091BDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="a_CreatureBreathing_Active" ID="{87CE7FF3-1061-4B7D-9523-F859B3889BE7}" ShortID="846156682">
+					<ChildrenList>
+						<Sound Name="A_Monster_Breathing_Fast-001" ID="{F5DAAEAF-6F6E-4100-8B8C-64FD25A9F062}" ShortID="653868970">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Fast-001" ID="{E08B8483-2AB7-4540-ADC4-DFED9D02199C}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Fast-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="397958662"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Fast-001" ID="{E08B8483-2AB7-4540-ADC4-DFED9D02199C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Fast-002" ID="{243353CD-173D-453A-9C67-0E5E20F61FA0}" ShortID="557050810">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Fast-002" ID="{638AC299-CC44-4F4C-A97B-41AB26377450}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Fast-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="665026205"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Fast-002" ID="{638AC299-CC44-4F4C-A97B-41AB26377450}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Fast-003" ID="{C6DDB51B-787C-46FC-A101-7578D534CAD8}" ShortID="930628989">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Fast-003" ID="{4BDC544D-D0FD-4B6C-BB8E-4B8D490D9BC5}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Fast-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="908425192"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Fast-003" ID="{4BDC544D-D0FD-4B6C-BB8E-4B8D490D9BC5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Fast-004" ID="{93A699B0-56F9-4ACE-8253-B4AAEB9E4E05}" ShortID="521685059">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Fast-004" ID="{DCB45B98-0AE2-4104-AFA7-6851F129936A}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Fast-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="100257756"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Fast-004" ID="{DCB45B98-0AE2-4104-AFA7-6851F129936A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Fast-005" ID="{2AD49447-CBA4-4086-A3FD-6C8AE82C460A}" ShortID="548253909">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Fast-005" ID="{90E82863-5720-4FD2-BFB8-319FED878A63}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Fast-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="79037475"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Fast-005" ID="{90E82863-5720-4FD2-BFB8-319FED878A63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Slow-001" ID="{9F89C991-338F-441B-A345-1B64B4882EBB}" ShortID="1023954321">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Slow-001" ID="{D985DFE7-A3FC-4EC6-82E1-B3D7A0F65FEC}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Slow-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="605084076"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Slow-001" ID="{D985DFE7-A3FC-4EC6-82E1-B3D7A0F65FEC}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Slow-002" ID="{01234770-0C55-46FE-A6A1-7724B6AB0F1A}" ShortID="820575030">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Slow-002" ID="{D9D9905A-E549-4E69-A952-F4B018215660}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Slow-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="482362881"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Slow-002" ID="{D9D9905A-E549-4E69-A952-F4B018215660}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Breathing_Slow-003" ID="{8A9C9700-776B-48D3-B6BC-601FB98E439B}" ShortID="504874892">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Breathing_Slow-003" ID="{5FB2836D-B3C7-41DE-8BC6-51CD33653E8E}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Breathing_Slow-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="653449371"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Breathing_Slow-003" ID="{5FB2836D-B3C7-41DE-8BC6-51CD33653E8E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="a_AmbientNoise_Ambient" ID="{3551C8B0-4C62-409C-91E3-3A418A910A13}" ShortID="112334134">
+					<ChildrenList>
+						<Sound Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" ShortID="321467394">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="BelowThresholdBehavior" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Blizzard_Attenuation" ID="{20B80E67-1E00-4D49-AA6B-2C15ABAA2BEE}" WorkUnitID="{1AD3FF4B-53A1-4605-85C3-2C294393925E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="4.26627836319713"/>
+										<Property Name="TrimEnd" Type="Real64" Value="110.354400328032"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>mixkit-blizzard-cold-winds-1153.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="875019276"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Panner Name="" ID="{23223FF2-9186-4F99-B8CA-3D89E49830A2}">
+									<PropertyList>
+										<Property Name="PanX" Type="Real64" Value="-0.337837837837833"/>
+										<Property Name="PanY" Type="Real64" Value="-1.67088565206086E-14"/>
+									</PropertyList>
+								</Panner>
+								<Position Name="" ID="{99C26EBF-4572-479D-A38F-8531AAA9D58E}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="mixkit-blizzard-cold-winds-1153" ID="{7DD0BEE4-40B9-4820-953F-E25D1EFCD279}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="a_TV_Ambient" ID="{FEC89345-E2F4-4824-A913-4C5DFA4CAD90}" ShortID="79638533">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="TV-Attenuation" ID="{FCE48DB7-5F45-4BAD-BE53-4474C9FEE5CD}" WorkUnitID="{1AD3FF4B-53A1-4605-85C3-2C294393925E}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="6.55685768427742"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="16.5346845951343"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>OldTimeyTv.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="281624345"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
