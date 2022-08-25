@@ -90,6 +90,145 @@
 						<ActiveSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="a_CreatureFootsteps_Active" ID="{7FCC5F27-FFB1-43A9-8EAC-750BCD5D192F}" ShortID="997413212">
+					<ChildrenList>
+						<Sound Name="A_Monster_Footstep-001" ID="{2A78B00D-F3F7-498A-B454-451BC4C15C84}" ShortID="543077961">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Footstep-001" ID="{0F94DEAD-8780-4D73-8957-68FFA4A3C1A7}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Footstep-001.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="154434523"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Footstep-001" ID="{0F94DEAD-8780-4D73-8957-68FFA4A3C1A7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Footstep-002" ID="{C1F656A1-DD74-4CAC-9765-37CC99889370}" ShortID="910680622">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Footstep-002" ID="{AD25C4F5-4DD3-4C7D-BDA8-A495E31F15A5}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Footstep-002.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="628695570"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Footstep-002" ID="{AD25C4F5-4DD3-4C7D-BDA8-A495E31F15A5}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Footstep-003" ID="{67E6F9C0-1F6A-439F-9E20-1D8035071B7F}" ShortID="220650157">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Footstep-003" ID="{D7CDCEFE-FDCD-4722-8C2E-0B6A5F31653C}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Footstep-003.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="85027865"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Footstep-003" ID="{D7CDCEFE-FDCD-4722-8C2E-0B6A5F31653C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Footstep-004" ID="{4131668A-431A-4F3A-B7C0-E2B7CCDD9551}" ShortID="55235140">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Footstep-004" ID="{9C64B790-DBE1-4D6F-927D-4B1637294B67}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Footstep-004.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="810004757"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Footstep-004" ID="{9C64B790-DBE1-4D6F-927D-4B1637294B67}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Footstep-005" ID="{852026C2-01B9-4FEE-9AF6-6A23354882C1}" ShortID="62903143">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Footstep-005" ID="{41BF419B-8FA9-4892-AD2E-D736580858BD}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Footstep-005.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="652755168"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Footstep-005" ID="{41BF419B-8FA9-4892-AD2E-D736580858BD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="A_Monster_Footstep-006" ID="{838C54BA-8299-4ADB-B9C1-D5DB67EFA1E8}" ShortID="990828402">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="A_Monster_Footstep-006" ID="{40A20405-BD32-488F-AFA4-610C96091BDD}">
+									<Language>SFX</Language>
+									<AudioFile>A_Monster_Footstep-006.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1047145094"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="A_Monster_Footstep-006" ID="{40A20405-BD32-488F-AFA4-610C96091BDD}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
