@@ -15,4 +15,4 @@ MonoBehaviour:
   objectName: Idle
   id: 1874288895
   guid: D9C0E725-31D8-41F2-8324-B6688AC3A66F
-  WwiseSwitchGroupReference: {fileID: 0}
+  WwiseSwitchGroupReference: {fileID: 11400000, guid: 78b85385b7046e44497f78eb5bb9efa5, type: 2}

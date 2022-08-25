@@ -3,76 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{34FF65A3-4AAB-4A4B-AFD0-026C57C15BC4}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="a_CreatureBreathing_Active" ID="{87CE7FF3-1061-4B7D-9523-F859B3889BE7}" ShortID="846156682">
-					<ChildrenList>
-						<Sound Name="A_Monster_Breathing_Slow-001" ID="{9F89C991-338F-441B-A345-1B64B4882EBB}" ShortID="1023954321">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Slow-001" ID="{D985DFE7-A3FC-4EC6-82E1-B3D7A0F65FEC}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Slow-001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="605084076"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Slow-001" ID="{D985DFE7-A3FC-4EC6-82E1-B3D7A0F65FEC}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="A_Monster_Breathing_Slow-002" ID="{01234770-0C55-46FE-A6A1-7724B6AB0F1A}" ShortID="820575030">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Slow-002" ID="{D9D9905A-E549-4E69-A952-F4B018215660}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Slow-002.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="482362881"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Slow-002" ID="{D9D9905A-E549-4E69-A952-F4B018215660}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="A_Monster_Breathing_Slow-003" ID="{8A9C9700-776B-48D3-B6BC-601FB98E439B}" ShortID="504874892">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Slow-003" ID="{5FB2836D-B3C7-41DE-8BC6-51CD33653E8E}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Slow-003.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="653449371"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Slow-003" ID="{5FB2836D-B3C7-41DE-8BC6-51CD33653E8E}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
 				<Folder Name="a_AmbientNoise_Ambient" ID="{3551C8B0-4C62-409C-91E3-3A418A910A13}" ShortID="112334134">
 					<ChildrenList>
 						<Sound Name="a_Blizzard_Ambient" ID="{A24AC847-FE5D-4B10-A741-641416BA3AC3}" ShortID="321467394">
@@ -160,120 +90,6 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="OldTimeyTv" ID="{FE7D2A28-EDCF-42CF-80F6-77DEC423BB75}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-					</ChildrenList>
-				</Folder>
-				<Folder Name="a_CreatureHeavyBreathing_Active" ID="{8D915201-5E44-4F3A-82F6-AEFC64FA3024}" ShortID="198668554">
-					<ChildrenList>
-						<Sound Name="A_Monster_Breathing_Fast-001" ID="{F5DAAEAF-6F6E-4100-8B8C-64FD25A9F062}" ShortID="653868970">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Fast-001" ID="{E08B8483-2AB7-4540-ADC4-DFED9D02199C}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Fast-001.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="397958662"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Fast-001" ID="{E08B8483-2AB7-4540-ADC4-DFED9D02199C}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="A_Monster_Breathing_Fast-002" ID="{243353CD-173D-453A-9C67-0E5E20F61FA0}" ShortID="557050810">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Fast-002" ID="{638AC299-CC44-4F4C-A97B-41AB26377450}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Fast-002.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="665026205"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Fast-002" ID="{638AC299-CC44-4F4C-A97B-41AB26377450}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="A_Monster_Breathing_Fast-003" ID="{C6DDB51B-787C-46FC-A101-7578D534CAD8}" ShortID="930628989">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Fast-003" ID="{4BDC544D-D0FD-4B6C-BB8E-4B8D490D9BC5}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Fast-003.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="908425192"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Fast-003" ID="{4BDC544D-D0FD-4B6C-BB8E-4B8D490D9BC5}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="A_Monster_Breathing_Fast-004" ID="{93A699B0-56F9-4ACE-8253-B4AAEB9E4E05}" ShortID="521685059">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Fast-004" ID="{DCB45B98-0AE2-4104-AFA7-6851F129936A}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Fast-004.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="100257756"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Fast-004" ID="{DCB45B98-0AE2-4104-AFA7-6851F129936A}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="A_Monster_Breathing_Fast-005" ID="{2AD49447-CBA4-4086-A3FD-6C8AE82C460A}" ShortID="548253909">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="A_Monster_Breathing_Fast-005" ID="{90E82863-5720-4FD2-BFB8-319FED878A63}">
-									<Language>SFX</Language>
-									<AudioFile>A_Monster_Breathing_Fast-005.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="79037475"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ActiveSourceList>
-								<ActiveSource Name="A_Monster_Breathing_Fast-005" ID="{90E82863-5720-4FD2-BFB8-319FED878A63}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -495,6 +311,360 @@
 								<SwitchRef Name="Carpet" ID="{D2AA4A8E-D278-406D-AB89-C110D72C653D}"/>
 								<ItemList>
 									<ItemRef Name="Carpet" ID="{89D3B122-CA64-4609-8186-D65CEEB54B34}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
+				<SwitchContainer Name="MonsterNoises" ID="{D18FFC5E-B1BC-4947-8C37-C90AE64C3B83}" ShortID="283696814">
+					<PropertyList>
+						<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Idle" ID="{D9C0E725-31D8-41F2-8324-B6688AC3A66F}" WorkUnitID="{35DCA604-2175-4993-AEA1-A155FFB108BA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="MonsterState" ID="{5D9E723A-CC2A-43E1-B097-09BEF0D70EE7}" WorkUnitID="{35DCA604-2175-4993-AEA1-A155FFB108BA}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Idle" ID="{D2AB634E-BD6E-46A6-97FB-DF31B3D2479C}" ShortID="291481207">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="A_Monster_Growl-001" ID="{746D57A5-B678-4628-9A21-00B0CBF43008}" ShortID="175272119">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Growl-001" ID="{007D15FB-C675-44A3-8540-AF520E31538E}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Growl-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="323842031"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Growl-001" ID="{007D15FB-C675-44A3-8540-AF520E31538E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Slow-001" ID="{91BC906C-67FD-4920-9F8F-064A5DC667A7}" ShortID="826390030">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Slow-001" ID="{61D13F36-BE33-4BD4-8A48-62D7B007F91E}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Slow-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605084076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Slow-001" ID="{61D13F36-BE33-4BD4-8A48-62D7B007F91E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Slow-002" ID="{F8D18F42-149D-4EFE-B321-173E2A8F203C}" ShortID="449573031">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Slow-002" ID="{FA0E79F0-FFC6-4EE0-AAF9-0AF8100761D9}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Slow-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="482362881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Slow-002" ID="{FA0E79F0-FFC6-4EE0-AAF9-0AF8100761D9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Slow-003" ID="{0DD33669-3259-4467-8BE5-6358713CC725}" ShortID="939642873">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Slow-003" ID="{81347938-6BCF-47A3-965F-3ECE91B1A7F0}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Slow-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653449371"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Slow-003" ID="{81347938-6BCF-47A3-965F-3ECE91B1A7F0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Running" ID="{FCEC1065-C564-4722-9ACD-DA6F85439648}" ShortID="907522803">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="A_Monster_Breathing_Fast-001" ID="{7F61D451-8429-4CCB-B1B0-18AD23570D2D}" ShortID="876587692">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Fast-001" ID="{BA660816-EBA1-421B-A2D9-C2953765E82F}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Fast-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="397958662"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Fast-001" ID="{BA660816-EBA1-421B-A2D9-C2953765E82F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Fast-002" ID="{44A57D4E-0145-467D-A36D-875F5FCC8EAD}" ShortID="169003588">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Fast-002" ID="{788CD34D-895B-4F50-8AD1-2926239F0AFF}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Fast-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="665026205"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Fast-002" ID="{788CD34D-895B-4F50-8AD1-2926239F0AFF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Fast-003" ID="{A84795CB-D331-4779-AF34-370660B7495D}" ShortID="487803356">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Fast-003" ID="{27B54990-E162-4CBE-9469-3D3A6E32FFC9}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Fast-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="908425192"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Fast-003" ID="{27B54990-E162-4CBE-9469-3D3A6E32FFC9}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Fast-004" ID="{6A80BA88-B7B3-4E90-A627-01F635C6EA8B}" ShortID="44684138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Fast-004" ID="{2C0CDFC1-FB12-4621-B639-13BC48ED7A76}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Fast-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="100257756"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Fast-004" ID="{2C0CDFC1-FB12-4621-B639-13BC48ED7A76}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Fast-005" ID="{AAFC9858-A312-4C1C-B56C-35D88B5169DE}" ShortID="472060113">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Fast-005" ID="{A757088F-DAB1-41E8-8E99-94BC6A631C2D}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Fast-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="79037475"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Fast-005" ID="{A757088F-DAB1-41E8-8E99-94BC6A631C2D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Walking" ID="{C4B350B8-A115-4D9D-B7A0-7011C66C3815}" ShortID="604613885">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="A_Monster_Breathing_Slow-001" ID="{6D0E64A1-AF22-4636-B305-35A0F3F863BA}" ShortID="46838360">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Slow-001" ID="{EC9F99F2-5951-4046-8E77-7A7C25725718}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Slow-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="605084076"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Slow-001" ID="{EC9F99F2-5951-4046-8E77-7A7C25725718}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Slow-002" ID="{AD9F14A3-5E80-4A3B-ABB6-8DB4B5802A4F}" ShortID="67263345">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Slow-002" ID="{DF0D1A14-19A6-4AD3-8982-BD256BBAB537}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Slow-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="482362881"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Slow-002" ID="{DF0D1A14-19A6-4AD3-8982-BD256BBAB537}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="A_Monster_Breathing_Slow-003" ID="{7D72516D-A97C-4DE7-8405-7B1011A722B6}" ShortID="52103672">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5A497A9C-613E-484D-A3F1-42F2475B2255}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{E5EC77D4-4AAE-4670-B70E-F1915EA6060B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="A_Monster_Breathing_Slow-003" ID="{BDEADA56-E396-40D4-BCC4-62AF68BF23F1}">
+											<Language>SFX</Language>
+											<AudioFile>A_Monster_Breathing_Slow-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="653449371"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="A_Monster_Breathing_Slow-003" ID="{BDEADA56-E396-40D4-BCC4-62AF68BF23F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Idle" ID="{D2AB634E-BD6E-46A6-97FB-DF31B3D2479C}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Running" ID="{FCEC1065-C564-4722-9ACD-DA6F85439648}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Walking" ID="{C4B350B8-A115-4D9D-B7A0-7011C66C3815}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Idle" ID="{D9C0E725-31D8-41F2-8324-B6688AC3A66F}"/>
+								<ItemList>
+									<ItemRef Name="Idle" ID="{D2AB634E-BD6E-46A6-97FB-DF31B3D2479C}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Walking" ID="{A59CF171-C4A0-46E6-8E16-9269835ABCC4}"/>
+								<ItemList>
+									<ItemRef Name="Walking" ID="{C4B350B8-A115-4D9D-B7A0-7011C66C3815}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Running" ID="{8D4036A3-2C2A-4E89-8BBC-2633A97E206E}"/>
+								<ItemList>
+									<ItemRef Name="Running" ID="{FCEC1065-C564-4722-9ACD-DA6F85439648}"/>
 								</ItemList>
 							</Grouping>
 						</GroupingList>

@@ -10,6 +10,13 @@
 						<Switch Name="Tile" ID="{AB60F468-D7B6-4E80-9809-57E135D5105E}"/>
 					</ChildrenList>
 				</SwitchGroup>
+				<SwitchGroup Name="MonsterState" ID="{5D9E723A-CC2A-43E1-B097-09BEF0D70EE7}">
+					<ChildrenList>
+						<Switch Name="Idle" ID="{D9C0E725-31D8-41F2-8324-B6688AC3A66F}"/>
+						<Switch Name="Walking" ID="{A59CF171-C4A0-46E6-8E16-9269835ABCC4}"/>
+						<Switch Name="Running" ID="{8D4036A3-2C2A-4E89-8BBC-2633A97E206E}"/>
+					</ChildrenList>
+				</SwitchGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</Switches>

@@ -14,6 +14,7 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FS_MONSTER = 3721954379U;
+        static const AkUniqueID MONSTER_NOISES = 1868513625U;
         static const AkUniqueID PLAY_A_BLIZZARD_AMBIENT = 3566274169U;
         static const AkUniqueID PLAY_A_TV_AMBIENT = 2944718825U;
     } // namespace EVENTS
@@ -31,6 +32,18 @@ namespace AK
                 static const AkUniqueID WOOD = 2058049674U;
             } // namespace SWITCH
         } // namespace MATERIAL
+
+        namespace MONSTERSTATE
+        {
+            static const AkUniqueID GROUP = 687366024U;
+
+            namespace SWITCH
+            {
+                static const AkUniqueID IDLE = 1874288895U;
+                static const AkUniqueID RUNNING = 3863236874U;
+                static const AkUniqueID WALKING = 340271938U;
+            } // namespace SWITCH
+        } // namespace MONSTERSTATE
 
     } // namespace SWITCHES
 
