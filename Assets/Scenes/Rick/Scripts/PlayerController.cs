@@ -69,10 +69,7 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.E) && p_isHiding == false && p_canHide)
         {
-            p_UIAnimator.SetTrigger("Fade");
-            p_isHiding = true;
-            p_Cam.enabled = false;
-            p_CurrentHidingSpot.HidingHere(true);
+            PlayerHiding(true);
         }
     }
 
@@ -120,6 +117,16 @@ public class PlayerController : MonoBehaviour
         p_CurrentHidingSpot = spot;
         p_canHide = true;
     }
+
+    public void PlayerHiding(bool state)
+    {
+        p_UIAnimator.SetTrigger("Fade");
+        p_canHide = state;
+        p_isHiding = state;
+        p_Cam.enabled = !state;
+        p_CurrentHidingSpot.HidingHere(state);
+    }
+
 
     public bool GetPlayerState()
     {

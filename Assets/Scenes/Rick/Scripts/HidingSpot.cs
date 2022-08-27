@@ -50,24 +50,17 @@ public class HidingSpot : MonoBehaviour
     {
         if (h_IsHiding)
         {
-            h_Cam.gameObject.SetActive(true);
             CameraControl();
 
             if (Input.GetKeyDown(KeyCode.E))
             {
-                //Leave hideout by:
-                //enable player controls
-                //enable player camera
-                //disable hiding camera
-                //disable hiding controls
+                h_playerRef.PlayerHiding(false);   
             }
         }
     }
 
     private void CameraControl()
     {
-        
-
         float inputX = Input.GetAxisRaw("Mouse X") * h_CamSens * Time.deltaTime;
         float inputY = Input.GetAxisRaw("Mouse Y") * h_CamSens * Time.deltaTime;
 
@@ -81,6 +74,7 @@ public class HidingSpot : MonoBehaviour
     public void HidingHere(bool state)
     {
         h_IsHiding = state;
+        h_Cam.gameObject.SetActive(state);
     }
 
     private void OnTriggerEnter(Collider other)
