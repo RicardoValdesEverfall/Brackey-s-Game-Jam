@@ -3202,16 +3202,24 @@ MonoBehaviour:
   - {fileID: 0}
   e_TimeToReact: 5
   e_suspicion: 0.45
+  e_LayerForRay:
+    serializedVersion: 2
+    m_Bits: 8
+  e_Head: {fileID: 723748750992278784}
   e_ZoneToInvestigate: {fileID: 0}
   e_AnimatorController: {fileID: 1581070791857700957}
   e_playerObjRef: {fileID: 0}
   e_playerTransformRef: {fileID: 0}
+  e_playerRef: {fileID: 0}
   e_currentState: 0
   e_Rotation: 0
   e_Speed: 0
   e_PatrolPointIndex: 0
+  e_InvestigatePointIndex: 0
   e_isSeen: 0
   timeSeen: 0
+  e_EnemyLevel: 0
+  e_ignoreSeen: 0
 --- !u!195 &3637864858182755689
 NavMeshAgent:
   m_ObjectHideFlags: 0
